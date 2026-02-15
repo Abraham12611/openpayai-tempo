@@ -4,20 +4,20 @@
 
 - Node.js 18+
 - Your wallet has test tokens (AlphaUSD, BetaUSD, pathUSD)
-- Private key: 0x0896de88c7c4c8cdf4c1ec70ffd654ae3c2aa068d3f3b9376c1e4dc589120dc2
+- Private key configured
 
 ## Step 1: Deploy Smart Contract
 
 Since we don't have Hardhat configured for Tempo yet, we'll use a simplified approach:
 
-### Option A: Deploy via Tempo Explorer (Recommended for hackathon)
+### Option A: Deploy via Tempo Explorer (Recommended)
 
 1. Go to https://explore.tempo.xyz
 2. Connect your wallet (same as deployer address)
 3. Use the "Deploy Contract" feature
 4. Paste the contract code from `contract/OpenPayAITempo.sol`
 5. Constructor args:
-   - _owner: 0x031891A61200FedDd622EbACC10734BC90093B2A (your address)
+   - _owner: Your wallet address
    - _paymentToken: 0x20c0000000000000000000000000000000000001 (AlphaUSD)
 6. Deploy and save the contract address
 
@@ -33,7 +33,7 @@ import { tempoActions } from 'viem/tempo';
 const BYTECODE = '0x...'; // Contract bytecode
 const ABI = [...]; // Contract ABI
 
-const account = privateKeyToAccount('0x0896de88c7c4c8cdf4c1ec70ffd654ae3c2aa068d3f3b9376c1e4dc589120dc2');
+const account = privateKeyToAccount('YOUR_PRIVATE_KEY');
 const client = createClient({
   account,
   chain: tempoModerato,
@@ -80,7 +80,7 @@ npm install
 # Test single purchase
 node -e "
 import OpenPayAIAgent from './agent.js';
-const agent = new OpenPayAIAgent('0x0896de88c7c4c8cdf4c1ec70ffd654ae3c2aa068d3f3b9376c1e4dc589120dc2');
+const agent = new OpenPayAIAgent('YOUR_PRIVATE_KEY');
 console.log(agent.getStats());
 "
 ```

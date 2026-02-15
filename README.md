@@ -1,25 +1,17 @@
-# OpenPayAI for Tempo Hackathon
+# OpenPayAI
 
-**AI agents paying for content with instant micropayments, fee sponsorship, and autonomous licensing.**
+**AI agents paying for content with instant micropayments, fee sponsorship, and autonomous licensing on Tempo.**
 
 [![Tempo](https://img.shields.io/badge/Powered%20by-Tempo-6366f1)](https://tempo.xyz)
-[![Track](https://img.shields.io/badge/Track-3%20AI%20Agents-green)](https://canteenapp-tempo.notion.site/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-
-## 🎯 Hackathon Submission
-
-**Track**: 3 (AI Agents & Automation)  
-**Prize**: $3,500 Grand Prize Competition  
-**Demo**: [Video Link](https://youtube.com/your-demo)  
-**Live App**: [https://openpayai-tempo.vercel.app](https://openpayai-tempo.vercel.app)
 
 ---
 
 ## 💡 Problem Statement
 
-Content providers face a growing dilemma: they want their websites to remain open and discoverable by traditional search crawlers, yet they don't want to give away their content for free to AI crawlers that scrape data for training and RAG purposes.
+Content providers face a growing dilemma: they want their websites to remain open and discoverable by traditional search crawlers, yet they don't want to give away their content for free to AI crawlers that scrape data for training and retrieval-augmented generation purposes.
 
-Cloudflare introduced pay-per-crawl in July 2025, but it's centralized and monopolistic. **OpenPayAI** creates a decentralized alternative on Tempo where AI agents autonomously pay for content access using instant stablecoin micropayments.
+Centralized pay-per-crawl solutions lock content providers into monopolistic platforms. **OpenPayAI** creates a decentralized alternative where AI agents autonomously pay for content access using instant stablecoin micropayments on Tempo.
 
 ---
 
@@ -87,12 +79,7 @@ OpenPayAI enables:
 
 ---
 
-## 🎥 Demo
-
-### 30-Second Pitch
-> "AI agents are scraping content everywhere, but creators get nothing. OpenPayAI on Tempo enables autonomous AI-to-creator micropayments with instant settlement. Agents purchase content licenses in under a second, gas-free, using stablecoins."
-
-### Live Demo Flow
+## 🎬 Live Demo Flow
 
 1. **Creator registers content** ($0.05 per access)
 2. **AI agent discovers content** via API
@@ -366,7 +353,7 @@ await client.sendTransaction({
 
 ## 🗺️ Roadmap
 
-### Phase 1: Hackathon (Current)
+### Phase 1: Foundation (Current)
 - ✅ Core smart contract
 - ✅ Backend API
 - ✅ AI agent with fee sponsorship
@@ -407,17 +394,14 @@ MIT License - see [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - **Tempo Team** - For the amazing L1 blockchain optimized for payments
-- **Canteen** - For organizing this hackathon
-- **ETHGlobal** - For inspiration from ETHOnline 2025
+- **Canteen** - For the community and resources
 
 ---
 
 ## 📞 Contact
 
 - GitHub: [@Abraham12611](https://github.com/Abraham12611)
-- Demo: [YouTube](https://youtube.com/your-demo)
-- Live: [Vercel](https://openpayai-tempo.vercel.app)
 
 ---
 
-**Built with ❤️ for the Tempo Hackathon 2026**
+**Built with ❤️ on Tempo**
