@@ -1,0 +1,19 @@
+{
+  "name": "openpayai-tempo-agent",
+  "version": "1.0.0",
+  "description": "AI Agent for OpenPayAI on Tempo - Autonomous content purchasing",
+  "main": "agent.js",
+  "type": "module",
+  "scripts": {
+    "start": "node agent.js",
+    "dev": "node --watch agent.js",
+    "batch": "node examples/batch-purchase.js",
+    "parallel": "node examples/parallel-payments.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "tempo.ts": "^0.1.0",
+    "viem": "^2.21.0"
+  }
+}
