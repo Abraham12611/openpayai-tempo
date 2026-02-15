@@ -1,0 +1,25 @@
+{
+  "name": "openpayai-tempo",
+  "version": "1.0.0",
+  "description": "**AI agents paying for content with instant micropayments, fee sponsorship, and autonomous licensing.**",
+  "main": "deploy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abraham12611/openpayai-tempo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abraham12611/openpayai-tempo/issues"
+  },
+  "homepage": "https://github.com/Abraham12611/openpayai-tempo#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "tempo.ts": "^0.14.0",
+    "viem": "^2.46.0"
+  }
+}
